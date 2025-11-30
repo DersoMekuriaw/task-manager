@@ -4,7 +4,7 @@ import { Text, View } from 'react-native'
 const NewTask = () => {
   return (
     <View>
-      <Text>NewTask</Text>
+      <Text>New Task procudre</Text>
     </View>
   )
 }
