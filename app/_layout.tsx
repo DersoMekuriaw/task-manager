@@ -7,13 +7,13 @@ export default function RootLayout() {
       <Stack.Screen
         name="index"
         options={{
-          title: "Tasks",
+          title: "Task List",
           headerBackButtonDisplayMode: "minimal",
         }}
       />
 
       <Stack.Screen
-        name="details"
+        name="task-detail"
         options={{
           title: "Task Details",
           headerBackButtonDisplayMode: "minimal",
@@ -23,9 +23,17 @@ export default function RootLayout() {
       />
 
       <Stack.Screen
-        name="new"
+        name="new-task"
         options={{
           title: "New Task",
+          headerBackButtonDisplayMode: "minimal",
+        }}
+      />
+
+      <Stack.Screen
+        name="task-preview"
+        options={{
+          title: "Task Preview",
           headerBackButtonDisplayMode: "minimal",
         }}
       />
