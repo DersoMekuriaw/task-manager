@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, TextInput, Pressable, ScrollView } from "react-native";
+import { Pressable, ScrollView, Text, TextInput } from "react-native";
 import { Task } from "./constants/task-interface";
 
 const NewTask = () => {
@@ -39,6 +39,7 @@ const NewTask = () => {
           borderColor: "#ccc",
           borderRadius: 10,
           marginBottom: 12,
+          backgroundColor: 'white'
         }}
       />
 
@@ -55,6 +56,7 @@ const NewTask = () => {
           borderRadius: 10,
           height: 100,
           marginBottom: 12,
+          backgroundColor: 'white'
         }}
       />
 
@@ -69,6 +71,7 @@ const NewTask = () => {
           borderColor: "#ccc",
           borderRadius: 10,
           marginBottom: 12,
+          backgroundColor: 'white'
         }}
       />
 
@@ -83,6 +86,7 @@ const NewTask = () => {
           borderColor: "#ccc",
           borderRadius: 10,
           marginBottom: 12,
+          backgroundColor: 'white'
         }}
       />
 
@@ -97,6 +101,7 @@ const NewTask = () => {
           borderColor: "#ccc",
           borderRadius: 10,
           marginBottom: 12,
+          backgroundColor: 'white'
         }}
       />
 
@@ -111,6 +116,7 @@ const NewTask = () => {
           borderColor: "#ccc",
           borderRadius: 10,
           marginBottom: 12,
+          backgroundColor: 'white'
         }}
       />
 
@@ -126,6 +132,7 @@ const NewTask = () => {
           borderColor: "#ccc",
           borderRadius: 10,
           marginBottom: 12,
+          backgroundColor: 'white'
         }}
       />
 

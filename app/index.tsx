@@ -15,8 +15,8 @@ export default function Index() {
     const response = await fetch(
       "http://freeapi.miniprojectideas.com/api/JWT/GetAllTaskList"
     );
-    const data = await response.json();
-    setItems(data.data);
+    const jsonData = await response.json();
+    setItems(jsonData.data);
   }
 
   return (
@@ -26,15 +26,15 @@ export default function Index() {
         padding: 16,
       }}
     >
-      <Link href="/new" asChild>
-        <AppButton title="Add Task" onPress={()=>{}} />
+      <Link href="/new-task" asChild>
+        <AppButton title="Add Task" />
       </Link>
 
       {items.map((item) => (
         <Link
           key={item.itemId}
           href={{
-            pathname: "/details",
+            pathname: "/task-detail",
             params: {
               ...item,
               isCompleted: String(item.isCompleted),
